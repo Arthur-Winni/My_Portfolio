@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 이 파일은 mybatis 설정 파일이다 -->
+<configuration>
+    <typeAliases>
+        <typeAlias alias="User" type="Portfolio.My.domain.User"/>
+        <typeAlias alias="BoardDto" type="Portfolio.My.domain.BoardDto"/>
+        <typeAlias alias="SearchCondition"  type="Portfolio.My.domain.SearchCondition"/>
+        <typeAlias alias="CommentDto" type="Portfolio.My.domain.CommentDto"/>
+    </typeAliases>
+</configuration>
